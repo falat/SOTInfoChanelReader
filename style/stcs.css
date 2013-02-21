@@ -1,0 +1,446 @@
+﻿body
+{
+    vertical-align: middle;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main-page
+{
+    background: url(../images/bg.jpg) no-repeat center center #000;
+}
+
+#silesiaTravelTile div.wide-slide
+{
+    width: 720px; /* 4 180px wide images */
+}
+
+    #silesiaTravelTile div.wide-slide > img
+    {
+        display: block;
+        float: left;
+    }
+
+
+@media (max-width: 600px)
+{
+    .metroExtraSmall p
+    {
+        margin: 85px 8px 0 8px;
+        text-transform: uppercase;
+        font-size: 18px;
+        line-height: 18px;
+        text-align: center;
+    }
+
+    .users-feed-tile .users-feed-tile-text
+    {
+        top: 60px;
+        left: 110px;
+        width: 80px;
+        text-transform: uppercase;
+        font-weight: 300;
+        line-height: 26px;
+        font-size: 24px;
+    }
+
+    #tilesArea
+    {
+        display: table;
+        width: 310px;
+        min-height: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: auto;
+        margin-top: auto;
+        vertical-align: middle;
+    }
+}
+
+@media (min-width: 601px)
+{
+    #tilesArea
+    {
+        display: table;
+        width: 640px;
+        min-height: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: auto;
+        margin-top: 50px;
+        vertical-align: middle;
+    }
+
+    .users-feed-tile .users-feed-tile-text
+    {
+        top: 80px;
+        left: 110px;
+        width: 80px;
+        text-transform: uppercase;
+        font-weight: 200;
+        line-height: 32px;
+        font-size: 30px;
+    }
+
+    .metroExtraSmall p
+    {
+        margin: 110px 10px 0 10px;
+        text-transform: uppercase;
+        font-size: 22px;
+        line-height: 28px;
+        text-align: center;
+    }
+
+    .live-tile,
+    .list-tile,
+    .copy-tile,
+    .tile-strip .flip-list > li
+    {
+        height: 200px;
+        margin: 2px;
+        padding: 0px;
+        width: 200px;
+    }
+
+        .live-tile.two-wide,
+        .list-tile.two-wide,
+        .copy-tile.two-wide,
+        .tile-strip .flip-list > li.two-wide
+        {
+            width: 404px;
+        }
+}
+
+.tileImage
+{
+    display: table;
+    margin: 10px auto 5px auto;
+    width: 85px;
+}
+
+.silesia-travel-logo
+{
+    background: url(../images/tiles/st.png) no-repeat center center #1A69B6;
+}
+
+.sot-logo
+{
+    background: url(../images/tiles/sot.png) no-repeat center center #A6CA10;
+}
+
+.users-feed-tile
+{
+    background: url(../images/tiles/info_icon.png) no-repeat 30px 60% #1C4362;
+}
+
+.MicroBlog
+{
+    background: url(../images/sot/mikroblog_w.png) no-repeat center 30%;
+}
+
+.InfoService
+{
+    background: url(../images/sot/news_w.png) no-repeat center 30%;
+}
+
+.FindPoiService
+{
+    background: url(../images/sot/poi_w.png) no-repeat center center;
+}
+
+.WeatherService
+{
+    background: url(../images/sot/pogoda_w.png) no-repeat center center;
+}
+
+.Newsletter
+{
+    background: url(../images/sot/newsletter_w.png) no-repeat center center;
+}
+
+.PublicTransportService
+{
+    background: url(../images/sot/transport_w.png) no-repeat center center;
+}
+
+.tileText
+{
+    display: table;
+    margin: auto;
+    width: 140px;
+}
+
+.channelsListTile
+{
+    background-image: url(../images/tiles/kanalyinformacyjne_bg.jpg);
+}
+
+.channelsListTileIconUp
+{
+    z-index: 5;
+    position: relative;
+    top: 50px;
+    left: 15px;
+}
+
+.channelsListTileIconDown
+{
+    z-index: 3;
+    position: relative;
+    top: -65px;
+}
+
+#postContent
+{
+    margin: 5px 20px 5px 20px;
+}
+
+/*Kolory*/
+html body .darkblue.accent,
+html body .darkblue.live-tile > .accent,
+html body .darkblue.list-tile > .accent,
+html body .darkblue.copy-tile > .accent,
+html body .darkblue.live-tile > div,
+html body .darkblue.copy-tile > div,
+html body .darkblue.list-tile > div,
+html body .darkblue.live-tile > .face,
+html body .darkblue.list-tile > .face,
+html body .darkblue.copy-tile > .face,
+html body .darkblue.live-tile > .slide,
+html body .darkblue.live-tile > .flip-back,
+html body .darkblue.live-tile > .flip-front,
+html body .darkblue.live-tile > .slide-back,
+html body .darkblue.live-tile > .slide-front,
+html body .darkblue.flip-list > li > .accent,
+html body .darkblue.flip-list > li > .flip-back,
+html body .darkblue.flip-list > li > .flip-front,
+html body .darkblue.slide.accent,
+html body .darkblue.slide-front.accent,
+html body .darkblue.slide-back.accent,
+html body .darkblue.flip-front.accent,
+html body .darkblue.flip-back.accent
+{
+    background-color: #1C4362;
+}
+
+html body .darkblue.accentColor,
+html body .darkblue.accentHover:hover,
+html body .darkblue.accentHover a:hover,
+html body .darkblue.accentLink a,
+html body .darkblue.accentLink a:hover,
+html body .darkblue.accentLink a:visited,
+a.accentLinkhtml body .darkblue,
+a.accentLinkhtml body .darkblue:hover,
+a.accentLinkhtml body .darkblue:visited
+{
+    color: #1ba1e2;
+}
+
+html body .darkblue.accentBorder
+{
+    border-color: #1ba1e2;
+}
+
+.settings-button
+{
+    background: url(../images/settings.png) no-repeat 10px center #1B6DA7;
+    padding: 0 0 0 25px;
+    text-transform: uppercase;
+    color: #fff;
+    border: 0;
+    font-weight: 300;
+}
+
+    .settings-button .ui-btn-active
+    {
+        border: 0;
+    }
+
+    .settings-button .ui-btn-inner
+    {
+        border: 0;
+        font-size: 18px;
+    }
+
+    .settings-button:visited, .settings-button a.ui-link-inherit, .settings-button:hover
+    {
+        color: #fff /*{a-bhover-color}*/;
+    }
+
+.back-button
+{
+    background: url(../images/arrowback.png) no-repeat 10px center #1B6DA7;
+    padding: 0 0 0 15px;
+    text-transform: uppercase;
+    color: #fff;
+    border: 0;
+    font-weight: 300;
+}
+
+    .back-button .ui-btn-active
+    {
+        border: 0;
+    }
+
+    .back-button .ui-btn-inner
+    {
+        border: 0;
+        font-size: 18px;
+    }
+
+    .back-button:visited, .back-button a.ui-link-inherit, .back-button:hover
+    {
+        color: #fff /*{a-bhover-color}*/;
+    }
+
+.ui-header
+{
+    height: 48px;
+    border: 0;
+}
+
+.logo-header
+{
+    background: url(../images/logo.png) no-repeat center center #1B6DA7;
+    width: 103px;
+    height: 23px;
+    margin: 12px auto 0 auto;
+}
+
+.sub-header
+{
+    background: url(../images/subheader.jpg) repeat-x #12466B;
+    height: 48px;
+    margin: 0;
+    position: relative;
+}
+
+    .sub-header .title
+    {
+        color: #fff;
+        text-transform: uppercase;
+        padding: 12px 35px 0 30px;
+        font-size: 20px;
+        font-weight: 600;
+        display: block;
+        width: auto;
+    }
+
+    .sub-header .refresh-button
+    {
+        background: url(../images/refresh.png) no-repeat;
+        width: 32px;
+        height: 32px;
+        display: block;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        margin: 9px 20px 0 0;
+    }
+
+.ui-icon-sot-arrow
+{
+    height: 30px;
+    width: 15px;
+    background: url(../images/sot/arrow.png) no-repeat center center !important; /*I added the !important, I found that this rule was being overwritten*/
+}
+
+.channel-list .ui-btn-up-a
+{
+    border: 0;
+    border-top: 3px solid #E4E4E4;
+    border-bottom: 0;
+    background-color: #fff;
+    background-image: none;
+}
+
+    .channel-list .ui-btn-up-a:last-child
+    {
+        border-bottom: 3px solid #E4E4E4;
+    }
+
+.channel-list .ui-btn-hover-a
+{
+    border: 0;
+    border-top: 3px solid #E4E4E4;
+    background-color: #E4E4E4;
+    background-image: none;
+}
+
+.channel-list .ui-icon
+{
+    margin: -15px 20px 0 0;
+}
+
+.channel-list .list-item
+{
+    padding: 5px 10px 5px 10px;
+}
+
+    .channel-list .list-item img
+    {
+    }
+
+    .channel-list .list-item .list-item-content
+    {
+        display: inline-block;
+        padding: 30px 0 0 20px;
+        vertical-align: top;
+    }
+
+        .channel-list .list-item .list-item-content .title
+        {
+            font-weight: 300;
+            color: #12466D;
+            font-size: 30px;
+            text-transform: uppercase;
+        }
+
+        .channel-list .list-item .list-item-content .summary
+        {
+            color: #666666;
+        }
+
+.channel-list .post-item
+{
+    padding: 3px;
+    
+}
+
+    .channel-list .post-item img
+    {
+        border-right: 4px solid #196EA7;
+        padding-right: 15px;
+        float: left;
+    }
+
+    .channel-list .post-item .post-item-content
+    {
+        padding: 10px 30px 0 130px;
+        vertical-align: top;
+        white-space: normal;
+    }
+
+
+
+        .channel-list .post-item .post-item-content .datetime
+        {
+            font-weight: 300;
+            font-size: 16px;
+            text-transform: uppercase;
+            color: #8D8D8D;
+        }
+
+        .channel-list .post-item .post-item-content .title
+        {
+            font-weight: 300;
+            color: #196EA7;
+            font-size: 26px;
+        }
+
+        .channel-list .post-item .post-item-content .summary
+        {
+            color: #1B1B1B;
+            font-weight: 300;
+            font-size: 12px;
+            white-space: normal;
+        }
