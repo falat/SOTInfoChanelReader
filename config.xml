@@ -24,7 +24,7 @@
   <author>Global Solution</author>
   <description>Silesia travel mobile comunication system</description>
 
-  <icon src="images/sot_logo.png"/>
+  <icon src="images/app_icon.png"/>
   
  
   <content src="index.html"/>

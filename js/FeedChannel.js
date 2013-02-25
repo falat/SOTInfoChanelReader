@@ -336,7 +336,7 @@ function GetChannelListForGroup(group, channelListDisplay) {
         },
         error: function (jqXHR, status, error) {
             //try to use cache
-            if (window.localStorage.getItem("channelList")) {
+         /*   if (window.localStorage.getItem("channelList")) {
                 // $("#status").html("Using cached version...");   
 
                 entries = JSON.parse(window.localStorage.getItem("channelList"));
@@ -363,6 +363,7 @@ function GetChannelListForGroup(group, channelListDisplay) {
                 $("#errorComunicate").html(T("Przepraszamy, ale nie udało się załadować informacji o dostępnych kanałach"));
                 $.mobile.changePage($('#ErrorPage'));
             }
+            */
         }
     })
 }
