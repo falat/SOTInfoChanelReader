@@ -64,5 +64,5 @@
   </rim:permissions>
 
   <gap:splash src="images/bg.jpg"         gap:platform="blackberry" />
-
+  <preference name="permissions" value="none"/>
 </widget>
