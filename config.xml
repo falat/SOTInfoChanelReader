@@ -65,7 +65,7 @@
   </rim:permissions>
 
   <gap:splash src="images/bg.jpg"         gap:platform="blackberry" />
-  <preference name="permissions" value="none"/>
+ 
   
   <feature name="http://api.phonegap.com/1.0/file"/>
 
