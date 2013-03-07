@@ -383,21 +383,27 @@ html body .darkblue.accentBorder
 
     .channel-list .list-item img
     {
+        padding-right: 15px;
+        float: left;
+         padding: 3px;
     }
 
     .channel-list .list-item .list-item-content
     {
-        display: inline-block;
-        padding: 30px 0 0 20px;
+       
+        padding: 30px 0 0 100px;
         vertical-align: top;
+        white-space: normal;
+
     }
 
         .channel-list .list-item .list-item-content .title
         {
             font-weight: 300;
             color: #12466D;
-            font-size: 30px;
+            font-size: 28px;
             text-transform: uppercase;
+           
         }
 
         .channel-list .list-item .list-item-content .summary
