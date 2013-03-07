@@ -36,6 +36,8 @@ var translationPL_En = {
     "Lista postów dla kanału:":"Post list for channel:",
     "Post z kanału: ": "Post from channel: ",
     "silesia.travel - Kanały informacyjne": "silesia.travel - Information channels",
-    "Wczytywanie":"Loading"
+    "Wczytywanie": "Loading",
+    "Wyjście": "Exit",
+    "Kanały Informacyjne":"Information channels"
 
 }

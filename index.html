@@ -12,23 +12,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script type="text/javascript" src="cordova-2.2.0.js"></script>
 
-    <script src="js/jquery/jquery-1.8.3.js"></script>
-    <script src="js/jquery/jquery.mobile-1.2.0.js"></script>
-    <script src="js/DateFormat.js"></script>
+    <script src="js/jquery/jquery-1.8.3.min.js"></script>
+    <script src="js/jquery/jquery.mobile-1.2.0.min.js"></script>
+    <script src="js/DateFormat.min.js"></script>
     <link href="style/jquery.mobile-1.0.min.css" rel="stylesheet" />
 
-    <script src="style/metrojs/MetroJs.js"></script>
+    <script src="style/metrojs/MetroJs.min.js"></script>
     <link href="style/metrojs/MetroJs.css" rel="stylesheet" />
 
-    <script src="js/autoComplete/jqm.autoComplete-1.5.0.js"></script>
-
+    <script src="js/autoComplete/jqm.autoComplete-1.5.0-min.js"></script>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
 
     <link href="style/SilesiaTravel.css" rel="stylesheet" />
     <script src="js/translator.js"></script>
-    <script src="js/FeedChannel.js"></script>
+    <script src="js/FeedChannel.min.js"></script>
     <link href="style/stcs.css" rel="stylesheet" />
-
 
 </head>
 <body>
@@ -53,13 +51,13 @@
 
                     </div>
                 </a>
-                <a href="http://www.silesia.travel/"  id="A1">
+                <a href="http://www.silesia.travel/" id="A1">
                     <div class="live-tile  blue silesia-travel-logo" data-mode="nomve" data-stops="100%" data-speed="750" data-delay="3000">
                     </div>
                 </a>
 
 
-                <a href="http://www.silesia-sot.pl/" >
+                <a href="http://www.silesia-sot.pl/">
                     <div class="live-tile  blue sot-logo" data-stops="100%" data-speed="750" data-delay="3000" data-mode="nomove">
                     </div>
                 </a>
@@ -85,12 +83,12 @@
             <div class="title" data-to-display="Lista kanałów"></div>
             <a class="refresh-button" href="#ChannelsListPage"></a>
         </div>
-        
+
         <div data-role="content">
             <ul id="ChannelsListView" class="channel-list" data-role="listview" data-inset="false"></ul>
         </div>
 
-     <!--   <div data-role="footer">
+        <!--   <div data-role="footer">
         </div>-->
     </div>
 
@@ -126,7 +124,7 @@
         </div>
 
         <div class="sub-header">
-            <div class="title" >
+            <div class="title">
                 <span data-to-display="Post z kanału: "></span>
                 <span id="channelTitleforPost"></span>
             </div>
@@ -150,14 +148,14 @@
         </div>
 
         <div class="sub-header">
-            <div class="title" >
+            <div class="title">
                 <span data-to-display="Błąd: "></span>
-                
+
             </div>
             <a class="refresh-button" href="#MainPage"></a>
         </div>
 
-        
+
         <div data-role="content" id="errorComunicate">
             Error
         </div>

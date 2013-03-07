@@ -27,9 +27,12 @@
     {
         margin: 85px 8px 0 8px;
         text-transform: uppercase;
-        font-size: 18px;
-        line-height: 18px;
+        font-size: 11px;
+        line-height: 11px;
         text-align: center;
+        height:40px;
+        overflow:hidden;
+        
     }
 
     .users-feed-tile .users-feed-tile-text
@@ -85,9 +88,11 @@
     {
         margin: 110px 10px 0 10px;
         text-transform: uppercase;
-        font-size: 22px;
-        line-height: 28px;
+        font-size: 18px;
+        line-height: 16px;
         text-align: center;
+        height:60px;
+        overflow:hidden;
     }
 
     .live-tile,
@@ -144,22 +149,22 @@
 
 .FindPoiService
 {
-    background: url(../images/sot/poi_w.png) no-repeat center center;
+    background: url(../images/sot/poi_w.png) no-repeat center 30%;
 }
 
 .WeatherService
 {
-    background: url(../images/sot/pogoda_w.png) no-repeat center center;
+    background: url(../images/sot/pogoda_w.png) no-repeat center 30%;
 }
 
 .Newsletter
 {
-    background: url(../images/sot/newsletter_w.png) no-repeat center center;
+    background: url(../images/sot/newsletter_w.png) no-repeat center 30%;
 }
 
 .PublicTransportService
 {
-    background: url(../images/sot/transport_w.png) no-repeat center center;
+    background: url(../images/sot/transport_w.png) no-repeat center 30%;
 }
 
 .tileText
@@ -444,3 +449,19 @@ html body .darkblue.accentBorder
             font-size: 12px;
             white-space: normal;
         }
+
+        .courtin-div{
+           
+            
+            height: 20px;
+            width: 100%;
+            position:relative;
+            bottom:5px;
+            z-index:5;
+            background-color: inherit;
+            display:inline-block;
+
+            /*background-image: -webkit-gradient( linear, left top, left bottom, from(rgba(50,50,50,0.8)), to(rgba(80,80,80,0.2)), color-stop(.5,#333333) );*/ 
+        }
+
+ 

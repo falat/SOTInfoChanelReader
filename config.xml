@@ -41,6 +41,7 @@
   <rim:orientation mode="auto"/>
 
   <rim:navigation mode="focus"/>
+  
   <access subdomains="true" uri="http://www.silesia-sot.pl/"/>
   <access subdomains="true" uri="http://sot.global-it.pl/"/>
   <access subdomains="true" uri="http://192.168.0.104" />
@@ -62,6 +63,6 @@
     <rim:permit>read_geolocation</rim:permit>
   </rim:permissions>
 
-  <gap:splash src="res/screen/blackberry/screen-225.png"         gap:platform="blackberry" />
-  <gap:splash src="splash.png" gap:platform="blackberry"/>
+  <gap:splash src="images/bg.jpg"         gap:platform="blackberry" />
+
 </widget>
