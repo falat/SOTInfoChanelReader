@@ -32,7 +32,6 @@
         text-align: center;
         height:40px;
         overflow:hidden;
-        
     }
 
     .users-feed-tile .users-feed-tile-text
@@ -302,15 +301,22 @@ html body .darkblue.accentBorder
     height: 48px;
     border: 0;
 }
+.ui-content { 
+    border-width: 0; 
+    overflow: visible; 
+    overflow-x: hidden; 
+    padding: 15px 1px 5px 1px; 
 
-.logo-header
-{
-    background: url(../images/logo.png) no-repeat center center #1B6DA7;
-    width: 103px;
-    height: 23px;
-    margin: 12px auto 0 auto;
 }
-
+@media (min-width: 480px){
+    .logo-header
+    {
+        background: url(../images/logo.png) no-repeat center center #1B6DA7;
+        width: 103px;
+        height: 23px;
+        margin: 12px auto 0 auto;
+    }
+}
 .sub-header
 {
     background: url(../images/subheader.jpg) repeat-x #12466B;

@@ -17,7 +17,7 @@
 <widget xmlns="http://www.w3.org/ns/widgets"
         xmlns:rim="http://www.blackberry.com/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        version="1.0.0.0"  
+        version="1.0.0.0"
         id="SilesiaTravelCS">
 
   <name>Silesia.Travel MobileCS</name>
@@ -25,24 +25,23 @@
   <description>Silesia travel mobile comunication system</description>
 
   <icon src="images/app_icon.png"/>
-  
- 
+
+
   <content src="index.html"/>
 
   <rim:navigation mode="focus" />
-  
+
   <feature id="blackberry.invoke" />
   <feature id="blackberry.system.event" />
   <feature id="blackberry.app" />
   <feature id="blackberry.app.event"/>
   <feature id="blackberry.ui.dialog" />
- 
 
   <rim:orientation mode="auto"/>
 
   <rim:navigation mode="focus"/>
-  
 
+  <access origin="*" />
   <access subdomains="true" uri="*" />
 
   <rim:connection timeout="60000">
@@ -52,8 +51,8 @@
     <id>MDS</id>
     <id>WAP2</id>
     <id>WAP</id>
-    </rim:connection>
-    
+  </rim:connection>
+
   <rim:permissions>
     <rim:permit>access_shared</rim:permit>
     <rim:permit>post_notifications</rim:permit>
@@ -61,6 +60,14 @@
     <rim:permit>read_geolocation</rim:permit>
   </rim:permissions>
 
+  <!-- to enable individual permissions use the following examples -->
+
+
+  <feature name="http://api.phonegap.com/1.0/file"/>
+  <feature name="http://api.phonegap.com/1.0/geolocation"/>
+  <feature name="http://api.phonegap.com/1.0/network"/>
+  <feature name="http://api.phonegap.com/1.0/notification"/>
+
   <gap:splash src="images/bg.jpg"         gap:platform="blackberry" />
- 
+
 </widget>
