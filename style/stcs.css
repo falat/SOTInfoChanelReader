@@ -123,11 +123,13 @@
 .silesia-travel-logo
 {
     background: url(../images/tiles/st.png) no-repeat center center #1A69B6;
+    background-size: 145px Auto;
 }
 
 .sot-logo
 {
     background: url(../images/tiles/sot.png) no-repeat center center #A6CA10;
+    background-size: 140px Auto;
 }
 
 .users-feed-tile
