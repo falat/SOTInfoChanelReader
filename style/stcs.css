@@ -1,39 +1,35 @@
-﻿body
-{
+﻿body {
     vertical-align: middle;
     font-family: 'Open Sans', sans-serif;
 }
 
-.main-page
-{
+.main-page {
     background: url(../images/bg.jpg) no-repeat center center #000;
 }
 
-#silesiaTravelTile div.wide-slide
-{
+#silesiaTravelTile div.wide-slide {
     width: 720px; /* 4 180px wide images */
 }
 
-    #silesiaTravelTile div.wide-slide > img
-    {
+    #silesiaTravelTile div.wide-slide > img {
         display: block;
         float: left;
     }
 
 
-@media (max-width: 600px)
-{
-    .metroExtraSmall p { margin: 85px 8px 0 8px; 
-                         text-transform: uppercase; 
-                         font-size: 11px; 
-                         line-height: 11px; 
-                         text-align: center; 
-                         height: 40px; 
-                         overflow: hidden; 
-                         text-decoration: none; }
+@media (max-width: 600px) {
+    .metroExtraSmall p {
+        margin: 85px 8px 0 8px;
+        text-transform: uppercase;
+        font-size: 11px;
+        line-height: 11px;
+        text-align: center;
+        height: 40px;
+        overflow: hidden;
+        text-decoration: none;
+    }
 
-    .users-feed-tile .users-feed-tile-text
-    {
+    .users-feed-tile .users-feed-tile-text {
         top: 60px;
         left: 110px;
         width: 80px;
@@ -43,8 +39,7 @@
         font-size: 24px;
     }
 
-    #tilesArea
-    {
+    #tilesArea {
         display: table;
         width: 310px;
         min-height: 500px;
@@ -56,10 +51,8 @@
     }
 }
 
-@media (min-width: 601px)
-{
-    #tilesArea
-    {
+@media (min-width: 601px) {
+    #tilesArea {
         display: table;
         width: 640px;
         min-height: 500px;
@@ -70,8 +63,7 @@
         vertical-align: middle;
     }
 
-    .users-feed-tile .users-feed-tile-text
-    {
+    .users-feed-tile .users-feed-tile-text {
         top: 80px;
         left: 110px;
         width: 80px;
@@ -81,23 +73,21 @@
         font-size: 30px;
     }
 
-    .metroExtraSmall p
-    {
+    .metroExtraSmall p {
         margin: 110px 10px 0 10px;
         text-transform: uppercase;
         font-size: 18px;
         line-height: 16px;
         text-align: center;
-        height:60px;
-        overflow:hidden;
-        text-decoration: none; 
+        height: 60px;
+        overflow: hidden;
+        text-decoration: none;
     }
 
     .live-tile,
     .list-tile,
     .copy-tile,
-    .tile-strip .flip-list > li
-    {
+    .tile-strip .flip-list > li {
         height: 200px;
         margin: 2px;
         padding: 0px;
@@ -107,95 +97,85 @@
         .live-tile.two-wide,
         .list-tile.two-wide,
         .copy-tile.two-wide,
-        .tile-strip .flip-list > li.two-wide
-        {
+        .tile-strip .flip-list > li.two-wide {
             width: 404px;
         }
 }
 
-.tileImage
-{
+.tileImage {
     display: table;
     margin: 10px auto 5px auto;
     width: 85px;
 }
 
-.silesia-travel-logo
-{
+.silesia-travel-logo {
     background: url(../images/tiles/st.png) no-repeat center center #1A69B6;
+    -moz-background-size: 145px Auto;
+    -o-background-size: 145px Auto;
+    -webkit-background-size: 145px Auto;
     background-size: 145px Auto;
 }
 
-.sot-logo
-{
+.sot-logo {
     background: url(../images/tiles/sot.png) no-repeat center center #A6CA10;
+    -moz-background-size: 140px Auto;
+    -o-background-size: 140px Auto;
+    -webkit-background-size: 140px Auto;
     background-size: 140px Auto;
 }
 
-.users-feed-tile
-{
+.users-feed-tile {
     background: url(../images/tiles/info_icon.png) no-repeat 30px 60% #1C4362;
 }
 
-.MicroBlog
-{
+.MicroBlog {
     background: url(../images/sot/mikroblog_w.png) no-repeat center 30%;
 }
 
-.InfoService
-{
+.InfoService {
     background: url(../images/sot/news_w.png) no-repeat center 30%;
 }
 
-.FindPoiService
-{
+.FindPoiService {
     background: url(../images/sot/poi_w.png) no-repeat center 30%;
 }
 
-.WeatherService
-{
+.WeatherService {
     background: url(../images/sot/pogoda_w.png) no-repeat center 30%;
 }
 
-.Newsletter
-{
+.Newsletter {
     background: url(../images/sot/newsletter_w.png) no-repeat center 30%;
 }
 
-.PublicTransportService
-{
+.PublicTransportService {
     background: url(../images/sot/transport_w.png) no-repeat center 30%;
 }
 
-.tileText
-{
+.tileText {
     display: table;
     margin: auto;
     width: 140px;
 }
 
-.channelsListTile
-{
+.channelsListTile {
     background-image: url(../images/tiles/kanalyinformacyjne_bg.jpg);
 }
 
-.channelsListTileIconUp
-{
+.channelsListTileIconUp {
     z-index: 5;
     position: relative;
     top: 50px;
     left: 15px;
 }
 
-.channelsListTileIconDown
-{
+.channelsListTileIconDown {
     z-index: 3;
     position: relative;
     top: -65px;
 }
 
-#postContent
-{
+#postContent {
     margin: 5px 20px 5px 20px;
 }
 
@@ -222,8 +202,7 @@ html body .darkblue.slide.accent,
 html body .darkblue.slide-front.accent,
 html body .darkblue.slide-back.accent,
 html body .darkblue.flip-front.accent,
-html body .darkblue.flip-back.accent
-{
+html body .darkblue.flip-back.accent {
     background-color: #1C4362;
 }
 
@@ -235,18 +214,15 @@ html body .darkblue.accentLink a:hover,
 html body .darkblue.accentLink a:visited,
 a.accentLinkhtml body .darkblue,
 a.accentLinkhtml body .darkblue:hover,
-a.accentLinkhtml body .darkblue:visited
-{
+a.accentLinkhtml body .darkblue:visited {
     color: #1ba1e2;
 }
 
-html body .darkblue.accentBorder
-{
+html body .darkblue.accentBorder {
     border-color: #1ba1e2;
 }
 
-.settings-button
-{
+.settings-button {
     background: url(../images/settings.png) no-repeat 10px center #1B6DA7;
     padding: 0 0 0 25px;
     text-transform: uppercase;
@@ -255,24 +231,20 @@ html body .darkblue.accentBorder
     font-weight: 300;
 }
 
-    .settings-button .ui-btn-active
-    {
+    .settings-button .ui-btn-active {
         border: 0;
     }
 
-    .settings-button .ui-btn-inner
-    {
+    .settings-button .ui-btn-inner {
         border: 0;
         font-size: 18px;
     }
 
-    .settings-button:visited, .settings-button a.ui-link-inherit, .settings-button:hover
-    {
+    .settings-button:visited, .settings-button a.ui-link-inherit, .settings-button:hover {
         color: #fff /*{a-bhover-color}*/;
     }
 
-.back-button
-{
+.back-button {
     background: url(../images/arrowback.png) no-repeat 10px center #1B6DA7;
     padding: 0 0 0 15px;
     text-transform: uppercase;
@@ -281,53 +253,48 @@ html body .darkblue.accentBorder
     font-weight: 300;
 }
 
-    .back-button .ui-btn-active
-    {
+    .back-button .ui-btn-active {
         border: 0;
     }
 
-    .back-button .ui-btn-inner
-    {
+    .back-button .ui-btn-inner {
         border: 0;
         font-size: 18px;
     }
 
-    .back-button:visited, .back-button a.ui-link-inherit, .back-button:hover
-    {
+    .back-button:visited, .back-button a.ui-link-inherit, .back-button:hover {
         color: #fff /*{a-bhover-color}*/;
     }
 
-.ui-header
-{
+.ui-header {
     height: 48px;
     border: 0;
 }
-.ui-content { 
-    border-width: 0; 
-    overflow: visible; 
-    overflow-x: hidden; 
-    padding: 15px 1px 5px 1px; 
 
+.ui-content {
+    border-width: 0;
+    overflow: visible;
+    overflow-x: hidden;
+    padding: 15px 1px 5px 1px;
 }
-@media (min-width: 480px){
-    .logo-header
-    {
+
+@media (min-width: 480px) {
+    .logo-header {
         background: url(../images/logo.png) no-repeat center center #1B6DA7;
         width: 103px;
         height: 23px;
         margin: 12px auto 0 auto;
     }
 }
-.sub-header
-{
+
+.sub-header {
     background: url(../images/subheader.jpg) repeat-x #12466B;
     height: 48px;
     margin: 0;
     position: relative;
 }
 
-    .sub-header .title
-    {
+    .sub-header .title {
         color: #fff;
         text-transform: uppercase;
         padding: 12px 35px 0 30px;
@@ -337,8 +304,7 @@ html body .darkblue.accentBorder
         width: auto;
     }
 
-    .sub-header .refresh-button
-    {
+    .sub-header .refresh-button {
         background: url(../images/refresh.png) no-repeat;
         width: 32px;
         height: 32px;
@@ -349,15 +315,13 @@ html body .darkblue.accentBorder
         margin: 9px 20px 0 0;
     }
 
-.ui-icon-sot-arrow
-{
+.ui-icon-sot-arrow {
     height: 30px;
     width: 15px;
     background: url(../images/sot/arrow.png) no-repeat center center !important; /*I added the !important, I found that this rule was being overwritten*/
 }
 
-.channel-list .ui-btn-up-a
-{
+.channel-list .ui-btn-up-a {
     border: 0;
     border-top: 3px solid #E4E4E4;
     border-bottom: 0;
@@ -365,74 +329,59 @@ html body .darkblue.accentBorder
     background-image: none;
 }
 
-    .channel-list .ui-btn-up-a:last-child
-    {
+    .channel-list .ui-btn-up-a:last-child {
         border-bottom: 3px solid #E4E4E4;
     }
 
-.channel-list .ui-btn-hover-a
-{
+.channel-list .ui-btn-hover-a {
     border: 0;
     border-top: 3px solid #E4E4E4;
     background-color: #E4E4E4;
     background-image: none;
 }
 
-.channel-list .ui-icon
-{
+.channel-list .ui-icon {
     margin: -15px 20px 0 0;
 }
 
-.channel-list .list-item
-{
+.channel-list .list-item {
     padding: 5px 10px 5px 10px;
 }
 
-    .channel-list .list-item img
-    {
+    .channel-list .list-item img {
         padding-right: 15px;
         float: left;
-         padding: 3px;
+        padding: 3px;
     }
 
-    .channel-list .list-item .list-item-content
-    {
-       
+    .channel-list .list-item .list-item-content {
         padding: 30px 0 0 100px;
         vertical-align: top;
         white-space: normal;
-
     }
 
-        .channel-list .list-item .list-item-content .title
-        {
+        .channel-list .list-item .list-item-content .title {
             font-weight: 300;
             color: #12466D;
             font-size: 28px;
             text-transform: uppercase;
-           
         }
 
-        .channel-list .list-item .list-item-content .summary
-        {
+        .channel-list .list-item .list-item-content .summary {
             color: #666666;
         }
 
-.channel-list .post-item
-{
+.channel-list .post-item {
     padding: 3px;
-    
 }
 
-    .channel-list .post-item img
-    {
+    .channel-list .post-item img {
         border-right: 4px solid #196EA7;
         padding-right: 15px;
         float: left;
     }
 
-    .channel-list .post-item .post-item-content
-    {
+    .channel-list .post-item .post-item-content {
         padding: 10px 30px 0 130px;
         vertical-align: top;
         white-space: normal;
@@ -440,48 +389,49 @@ html body .darkblue.accentBorder
 
 
 
-        .channel-list .post-item .post-item-content .datetime
-        {
+        .channel-list .post-item .post-item-content .datetime {
             font-weight: 300;
             font-size: 16px;
             text-transform: uppercase;
             color: #8D8D8D;
         }
 
-        .channel-list .post-item .post-item-content .title
-        {
+        .channel-list .post-item .post-item-content .title {
             font-weight: 300;
             color: #196EA7;
             font-size: 26px;
         }
 
-        .channel-list .post-item .post-item-content .summary
-        {
+        .channel-list .post-item .post-item-content .summary {
             color: #1B1B1B;
             font-weight: 300;
             font-size: 12px;
             white-space: normal;
         }
 
-        .courtin-div{
-           
-            
-            height: 22px;
-            width: 100%;
-            position:relative;
-            bottom:5px;
-            z-index:5;
-            background-color: inherit;
-            display:inline-block;
+.courtin-div {
+    height: 22px;
+    width: 100%;
+    position: relative;
+    bottom: 5px;
+    z-index: 5;
+    background-color: inherit;
+    display: inline-block;
+    /*background-image: -webkit-gradient( linear, left top, left bottom, from(rgba(50,50,50,0.8)), to(rgba(80,80,80,0.2)), color-stop(.5,#333333) );*/
+}
 
-            /*background-image: -webkit-gradient( linear, left top, left bottom, from(rgba(50,50,50,0.8)), to(rgba(80,80,80,0.2)), color-stop(.5,#333333) );*/ 
-        }
-    
-a:link {text-decoration:none;}
-a:visited {text-decoration:none;}
-a:hover {text-decoration:none;}
-a:active {text-decoration:none;}
+a:link {
+    text-decoration: none;
+}
 
+a:visited {
+    text-decoration: none;
+}
 
+a:hover {
+    text-decoration: none;
+}
 
- 
+a:active {
+    text-decoration: none;
+}
