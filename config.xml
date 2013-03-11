@@ -42,10 +42,7 @@
 
   <rim:navigation mode="focus"/>
   
-  <access subdomains="true" uri="http://www.silesia-sot.pl/"/>
-  <access subdomains="true" uri="http://sot.global-it.pl/"/>
-  <access subdomains="true" uri="http://192.168.0.104" />
-  <access subdomains="true" uri="http://192.168.69.108" />
+
   <access subdomains="true" uri="*" />
 
   <rim:connection timeout="60000">
@@ -66,5 +63,4 @@
 
   <gap:splash src="images/bg.jpg"         gap:platform="blackberry" />
  
-
 </widget>
